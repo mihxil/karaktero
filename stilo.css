@@ -1,1 +1,4 @@
 @import url(../stilo.css);
+hr {
+    color: white;
+}
