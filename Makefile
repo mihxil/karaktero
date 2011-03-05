@@ -16,10 +16,10 @@ revisio.tex: .svn
 deps:
 
 karaktero-a5.tex: $(DEPS)
-	xsltproc -novalid --stringparam centering yes ../latehxigu.xslt $<  | sed -f eo.sed -f ../utf8-tex.sed > $@
+	xsltproc -novalid ../latehxigu.xslt $<  | sed -f eo.sed -f ../utf8-tex.sed > $@
 
 karaktero-a4.tex: $(DEPS)
-	xsltproc -novalid --stringparam centering yes --stringparam geometry a4paper ../latehxigu.xslt $<  | sed -f eo.sed  -f ../utf8-tex.sed > $@
+	xsltproc -novalid  --stringparam geometry a4paper ../latehxigu.xslt $<  | sed -f eo.sed  -f ../utf8-tex.sed > $@
 
 %.dvi: %.tex
 	latex $<
