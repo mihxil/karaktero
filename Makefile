@@ -1,5 +1,5 @@
 
-TARGETS=karaktero-a4.pdf karaktero-a5.pdf karaktero-libreto.pdf
+TARGETS=karaktero-a4.pdf karaktero-a5.pdf karaktero-libreto.pdf karaktero.epub
 PAGES=4
 
-include ../libro.mk
+include html2latex/libro.mk
