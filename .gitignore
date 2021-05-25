@@ -3,5 +3,7 @@
 /*.out
 /*.pdf
 /*.epub
+/*.xdv
 /.idea/
 /revisio.tex
+/revisio.txt
