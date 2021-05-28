@@ -4,6 +4,9 @@
 /*.pdf
 /*.epub
 /*.xdv
+/*-a4.tex
+/*-a5.tex
+/*-epub.tex
 /.idea/
 /revisio.tex
 /revisio.txt
